@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box1, .box2{width: 200px;height: 200px;background-color: darkblue;
+        margin: 100px auto 0;}
+        .box1 div{width: 120px;height: 50px;background-color: green;
+        margin-top: 75px;margin-left: 40px;}
+        .clearfix:before{
+            content:'';
+            display:table;
+        }   
+    
+    </style>
+</head>
+<body>
+    <div class="box1 clearfix">
+        <div></div>
+    </div>
+    <br>
+    <div class="box2">
+        <div></div>
+    </div>
+</body>
+</html>
